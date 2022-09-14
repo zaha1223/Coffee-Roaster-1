@@ -80,6 +80,9 @@ body {
   width: 236px;
   height: 26px;
 }
+.site-logo:hover {
+  opacity: 0.5;
+}
 .nav-list {
   width: 283px;
   display: flex;
@@ -223,6 +226,14 @@ body {
   color: var(--darkwhite);
   margin-top: 56px;
 }
+.reason-subtitle3 {
+  font-family: var(--Fraunces);
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: var(--darkwhite);
+  margin-top: 75px;
+}
 .reason-subtext {
   font-family: var(--Barlow);
   text-align: center;
@@ -317,6 +328,9 @@ body {
 
 .footer-site-logo {
   margin-right: 100px;
+}
+.footer-site-logo:hover {
+  opacity: 0.5;
 }
 .footer-list {
   display: flex;
