@@ -363,3 +363,85 @@ body {
 .social-link:hover {
   opacity: 0.5;
 }
+/* About us page */
+.aboutus-header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 45px 0;
+  background-color: var(--white);
+}
+.site-logo {
+  width: 236px;
+  height: 26px;
+}
+.site-logo:hover {
+  opacity: 0.5;
+}
+.nav-list {
+  width: 283px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-link {
+  font-family: var(--Barlow);
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  color: var(--grey);
+  transition: 0.4s;
+}
+.nav-link:hover {
+  color: #333d4b;
+}
+/* about hero */
+.about-hero-content {
+  padding: 137px 750px 137px 85px;
+  background-image: url(../imgs/aboutus_hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 168px;
+}
+.about-hero-title {
+  font-family: var(--Fraunces);
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: var(--darkwhite);
+}
+.about-hero-text {
+  font-family: var(--Barlow);
+  color: var(--darkwhite);
+  margin-top: 24px;
+}
+/* about commitment-section */
+
+.commitment-content {
+  display: flex;
+  align-items: center;
+  padding: 0 81px;
+  margin-bottom: 168px;
+}
+.commitment-info {
+  width: 540px;
+  margin-left: 135px;
+}
+.commitment-img {
+  width: 445px;
+  height: 520px;
+}
+.commitment-title {
+  font-family: var(--Fraunces);
+  font-size: 40px;
+  line-height: 48px;
+  color: var(--darkblue);
+}
+.commitment-text {
+  font-family: var(--Barlow);
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  margin-top: 32px;
+}
