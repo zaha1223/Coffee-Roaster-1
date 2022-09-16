@@ -84,14 +84,14 @@ body {
 .site-logo:hover {
   opacity: 0.5;
 }
-.nav-list {
+.nav {
   width: 283px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.nav-link {
+.nav__link {
   font-family: var(--Barlow);
   font-weight: 700;
   font-size: 12px;
@@ -100,7 +100,7 @@ body {
   color: var(--grey);
   transition: 0.4s;
 }
-.nav-link:hover {
+.nav__link:hover {
   color: #333d4b;
 }
 /* hero-section */
@@ -321,26 +321,26 @@ body {
   background-color: var(--darkblue);
 }
 
-.footer-content {
+.footer__content {
   display: flex;
   align-items: center;
   padding: 48px 0;
 }
 
-.footer-site-logo {
+.footer-site__logo {
   margin-right: 100px;
 }
-.footer-site-logo:hover {
+.footer-site__logo:hover {
   opacity: 0.5;
 }
-.footer-list {
+.footer__list {
   display: flex;
   align-items: center;
 }
-.footer-item + .footer-item {
+.footer__item + .footer__item {
   margin-left: 33px;
 }
-.footer-link {
+.footer__link {
   font-family: var(--Barlow);
   font-weight: 700;
   font-size: 12px;
@@ -348,72 +348,39 @@ body {
   color: var(--grey);
   letter-spacing: 0.923077px;
 }
-.footer-link:hover {
+.footer__link:hover {
   color: var(--darkwhite);
-
   text-transform: uppercase;
 }
-.social-list {
+.social__list {
   display: flex;
   align-items: center;
   margin-left: 370px;
 }
-.social-item + .social-item {
+.social__item + .social__item {
   margin-left: 24px;
 }
-.social-link:hover {
+.social__link:hover {
   opacity: 0.5;
 }
 /* About us page */
-.aboutus-header-content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 45px 0;
-  background-color: var(--white);
-}
-.site-logo {
-  width: 236px;
-  height: 26px;
-}
-.site-logo:hover {
-  opacity: 0.5;
-}
-.nav-list {
-  width: 283px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
 
-.nav-link {
-  font-family: var(--Barlow);
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 15px;
-  letter-spacing: 0.923077px;
-  color: var(--grey);
-  transition: 0.4s;
-}
-.nav-link:hover {
-  color: #333d4b;
-}
 /* about hero */
-.about-hero-content {
+.about-hero__content {
   padding: 137px 750px 137px 85px;
   background-image: url(../imgs/aboutus_hero.png);
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 168px;
 }
-.about-hero-title {
+.about-hero__title {
   font-family: var(--Fraunces);
   font-weight: 900;
   font-size: 40px;
   line-height: 48px;
   color: var(--darkwhite);
 }
-.about-hero-text {
+.about-hero__text {
   font-family: var(--Barlow);
   color: var(--darkwhite);
   margin-top: 24px;
@@ -426,48 +393,48 @@ body {
   padding: 0 81px;
   margin-bottom: 168px;
 }
-.commitment-info {
-  width: 540px;
-  margin-left: 135px;
-}
-.commitment-img {
+.commitment__img {
   width: 445px;
   height: 520px;
 }
-.commitment-title {
+.commitment__info {
+  width: 540px;
+  margin-left: 135px;
+}
+.commitment__title {
   font-family: var(--Fraunces);
   font-size: 40px;
   line-height: 48px;
   color: var(--darkblue);
 }
-.commitment-text {
+.commitment__text {
   font-family: var(--Barlow);
   mix-blend-mode: normal;
   opacity: 0.8;
   margin-top: 32px;
 }
 /* quality-section */
-.quality-info {
+.quality__info {
   position: relative;
   padding: 86px 655px 176px 85px;
   background-color: var(--darkgrey);
   margin-bottom: 168px;
   border-radius: 10px;
 }
-.quality-title {
+.quality__title {
   font-family: var(--Fraunces);
   font-size: 40px;
   line-height: 48px;
   color: var(--darkwhite);
 }
-.quality-text {
+.quality__text {
   font-family: var(--Barlow);
   mix-blend-mode: normal;
   opacity: 0.8;
   color: var(--darkwhite);
   margin-top: 32px;
 }
-.quality-img {
+.quality__img {
   position: absolute;
   top: -88px;
   bottom: 0;
@@ -475,13 +442,13 @@ body {
   margin-bottom: 0;
 }
 /* quarters section */
-.quarters-title {
+.quarters__title {
   font-family: var(--Fraunces);
   font-size: 24px;
   line-height: 32px;
   color: var(--grey);
 }
-.quarters-list {
+.quarters__list {
   width: 1045px;
   margin-top: 72px;
   margin-bottom: 168px;
@@ -489,19 +456,19 @@ body {
   align-items: center;
   justify-content: space-between;
 }
-.quarters-img {
+.quarters__img {
   margin-bottom: 45px;
 }
-.quarters-info {
+.quarters__info {
   margin-top: 24px;
 }
-.quarters-subtitle {
+.quarters__subtitle {
   font-family: var(--Fraunces);
   font-size: 32px;
   line-height: 36px;
   color: var(--darkblue);
 }
-.quarters-text {
+.quarters__text {
   font-family: var(--Barlow);
   color: var(--darkblue);
 }
