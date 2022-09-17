@@ -472,3 +472,37 @@ body {
   font-family: var(--Barlow);
   color: var(--darkblue);
 }
+/* Create plan page */
+/* Create section */
+.create-info {
+  background-image: url(../imgs/create-plan.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 134px 709px 134px 85px;
+  margin-bottom: 168px;
+}
+.create-info__title {
+  font-family: var(--Fraunces);
+  font-size: 72px;
+  line-height: 72px;
+  color: var(--darkwhite);
+}
+.create-info__text {
+  font-family: var(--Barlow);
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  color: var(--darkwhite);
+  margin-top: 32px;
+}
+/* works section copy */
+.create-works {
+  background-color: var(--darkgrey);
+}
+.oval-line {
+  width: 31px;
+  height: 31px;
+  display: inline-block;
+  background-color: transparent;
+  border: 2px solid var(--darkgreen);
+  border-radius: 50%;
+}
